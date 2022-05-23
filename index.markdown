@@ -5,4 +5,6 @@
 layout: home
 ---
 
-## Hello
+- [Ising model](https://github.com/tonilatorrec/ising)
+- [Book finder](https://github.com/tonilatorrec/book-finder)
+- [Sonda -- data logging with Arduino](https://github.com/tonilatorrec/sonda)
