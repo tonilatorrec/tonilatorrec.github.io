@@ -16,11 +16,7 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    {% if page.use_math %}
-    {{ content | regex_replace: '\$\$(?<some_name>\*)\$\$', '\\n\$\$["some_name"]\$\$\\n' | replace: '[!info]', '' }}
-    {% else %}
     {{ content | replace: '[!info]', ''}}
-    {% endif %}
   </div>
 
 </article>
