@@ -18,8 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Toni Latorre
-email: tonilatorre.c@gmail.com
+title: Toni
+author:
+  name: Toni Latorre
+  email: toni.lc@pm.me
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tonilatorrec.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -33,6 +35,13 @@ plugins:
 minima:
   social_links:
     github: tonilatorrec
+
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
 
 # Exclude from processing.
 # The following items will not be processed, by default.
