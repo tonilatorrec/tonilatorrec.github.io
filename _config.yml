@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Toni
+title: toni-lc
 author:
   name: Toni Latorre
   email: toni.lc@pm.me
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tonilatorrec.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: tonilatorrec
+url: "https://toni-lc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: toni-lc
 
 # Build settings
 theme: minima
@@ -34,7 +34,7 @@ plugins:
 
 minima:
   social_links:
-    github: tonilatorrec
+    github: toni-lc
 
 sass:
   quiet_deps: true
