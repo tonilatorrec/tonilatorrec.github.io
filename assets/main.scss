@@ -1,11 +1,53 @@
 ---
 ---
 
-@import url("https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@200;400&display=swap");
 @import "minima";
 
 .site-title,
 .site-title:visited {
-  font-family: "Playwrite ES Deco", cursive;
+  font-family: "Playwrite ES Deco";
+  font-size: 24px;
   font-weight: 200;
+  letter-spacing: 0.02em;
+  line-height: 54px;
+}
+
+
+.post-title {
+  font-family: "Playwrite ES Deco";
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0.0em;
+}
+
+.home ul {
+  list-style: circle;
+}
+
+.site-footer {
+  padding: 12px 0;
+}
+
+.footer-content {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+}
+
+.footer-content .social-media-list {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-bottom: 0;
+}
+
+.footer-content .contact-list {
+  margin-bottom: 0;
+}
+
+.footer-content .social-media-list li + li {
+  padding-top: 0;
 }
