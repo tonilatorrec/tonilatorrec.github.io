@@ -35,6 +35,7 @@ plugins:
 minima:
   social_links:
     github: toni-lc
+    linkedin: tonilatorrec
 
 sass:
   quiet_deps: true
